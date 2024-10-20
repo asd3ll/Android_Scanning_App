@@ -1,6 +1,6 @@
-# Beefslider Product Tracking App
+# Android Scanning App
 
-Welcome to the Beefslider README. This document provides an overview of the app, including its objectives, functionality, and technical details.
+Welcome to the Android Scanning App README. This document provides an overview of the app, including its objectives, functionality, and technical details.
 
 ## Objectives
 - Develop an Android app for tracking meat products using barcode scanning.
