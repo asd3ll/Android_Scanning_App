@@ -30,5 +30,9 @@ Welcome to the Beefslider README. This document provides an overview of the app,
 For any inquiries, feel free to reach out via private message.
 
 
-https://github.com/user-attachments/assets/5fb202cf-d994-4ebb-b6de-deb1add0acd1
+
+https://github.com/user-attachments/assets/c019b818-8b56-4015-8a41-6da7519929b1
+
+
+
 
