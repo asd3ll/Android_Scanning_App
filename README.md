@@ -1,33 +1,31 @@
 # Android Scanning App
 
-Welcome to the Android Scanning App README. This document provides an overview of the app, including its objectives, functionality, and technical details.
+This README provides an overview of the Android Scanning App, including its purpose, functionality, and technical details.
 
-## Objectives
-- Develop an Android app for tracking meat products using barcode scanning.
-- Create an intuitive user interface for a seamless experience.
-- Extract product data (name, weight, price) from barcodes.
-- Store barcode data in files and allow sharing via email.
-- Enable easy management and editing of EAN codes (name, weight, price).
+## Purpose
+The app enables users to scan barcodes and manage product data, including name, weight, and price. It is designed for efficient product tracking and data sharing.
 
-## Functionality
-- Scan barcodes using the phone’s camera.
-- Match barcodes to stored product info and generate a product list.
-- Share the generated product list via email.
+**Note**: For security reasons, some classes have been removed.
+**Note**: The project uploaded to GitHub is not a complete production version. It is intended to showcase parts of the code and the overall structure.
 
-**Note**: For security reasons, a couple of classes have been removed from this project.
+## Features
+- Barcode scanning via camera
+- Product data (name, weight, price) collection
+- CSV file storage
+- Email sharing of product lists
+- EAN code management and editing
 
-## Operating Environment
-- Android phone with camera.
-- Android 10+ recommended.
-- Internet connection for email functionality.
+## Requirements
+- Android 10+ device with a camera
+- Internet connection for email functionality
 
-## Technical Specs
-- **Platform**: Android
-- **Language**: Java with Android Studio (XML)
-- **Database**: Android internal storage (CSV files)
+## Technical Stack
+- **Programming Language**: Java
+- **UI**: Android Studio Layout Editor (XML)
+- **Storage**: Internal storage (CSV)
 
-## Contact Information
-For any inquiries, feel free to reach out via private message.
+
+
 
 
 
