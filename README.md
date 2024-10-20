@@ -5,10 +5,6 @@ This README provides an overview of the Android Scanning App, including its purp
 ## Purpose
 The app enables users to scan barcodes and manage product data, including name, weight, and price. It is designed for efficient product tracking and data sharing.
 
-**Note**: The project uploaded to GitHub is not a complete production version. It is intended to showcase parts of the code and the overall structure.
-
-**Note**: For security reasons, some classes have been removed.
-
 ## Features
 - Barcode scanning via camera
 - Product data (name, weight, price) collection
@@ -25,6 +21,9 @@ The app enables users to scan barcodes and manage product data, including name, 
 - **UI**: Android Studio Layout Editor (XML)
 - **Storage**: Internal storage (CSV)
 
+## Setup Notes:
+- **Note**: The project uploaded to GitHub is not a complete production version. It is intended to showcase parts of the code and the overall structure.
+- **Note**: For security reasons, some classes have been removed.
 
 
 
