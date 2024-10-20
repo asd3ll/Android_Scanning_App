@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ohjelmanAsetuksetActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvOletusSahkopostiosoiteOtsikko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/default_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAsetuksetOtsikko" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="159dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="368dp"
+        android:text="
+(c) BeefSlider\n \n
+Pasi Makkonen\n
+Niklas Hassinen\n
+Tomi Karjalainen\n
+Teemu Kähkönen\n
+Roope Plattonen\n
+Mikael Lilienkampf\n
+Aatu Kärnä
+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAsetuksetOtsikko" />
+
+    <TextView
+        android:id="@+id/tvAsetuksetOtsikko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/settings2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTeema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/theme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAsetuksetOtsikko" />
+
+    <Switch
+        android:id="@+id/switchTeema"
+        android:layout_width="229dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:checked="false"
+        android:text="Night Mode"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTeema" />
+
+
+    <TextView
+        android:id="@+id/tvAsetettuSahkopostiosoite"
+        android:layout_width="266dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOletusSahkopostiosoiteOtsikko" />
+
+    <ImageButton
+        android:id="@+id/ibMuokkaaAsetettuaSahkopostiosoitetta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/tvAsetettuSahkopostiosoite"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <Button
+        android:id="@+id/btTestaaSahkopostinToimivuus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/test_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAsetettuSahkopostiosoite" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
